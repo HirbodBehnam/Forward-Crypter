@@ -6,12 +6,12 @@ You can use this just like shadowsocks or brooks. Use this program to forward a 
 Use the executables from [releases](https://github.com/HirbodBehnam/Forward-Crypter/releases) and download one for your server and client.
 ### Server
 ```
-./sf -l 8080 -t 127.0.0.1:8888 -k "password" server
+./fc -l 8080 -t 127.0.0.1:8888 -k "password" server
 ```
 Run this command. It will get all traffics from port 8080, decrypt them with "password" and forwards them to 127.0.0.1:8888.
 ### Client
 ```
- ./sf -l 1080 -t 1.1.1.1:8080 -k "password" client
+ ./fc -l 1080 -t 1.1.1.1:8080 -k "password" client
 ```
 This will get all incoming traffics from port 1080, encryptes them with the key "password" and forwards them to port 1.1.1.1:1080.
 ### Building
