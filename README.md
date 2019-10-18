@@ -23,3 +23,7 @@ go get github.com/urfave/cli
 go get golang.org/x/crypto/chacha20poly1305
 go build main.go
 ```
+## Older version
+The older version of this app is available at https://github.com/HirbodBehnam/Forward-Crypter/tree/legacy
+
+This version strictly forwards all traffic to a specific path that must be defined by server admin.
