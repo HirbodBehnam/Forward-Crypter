@@ -1,3 +1,4 @@
+# DO NOT USE APP AS IT HAS CRYPTOGRAPHIC CATASTROPHIC (SAME NONCE USED). I'M ARCHIVING THIS REPO
 # Forward Crypter
 A program to encrypt and forward packets via websocket
 ## Why this?
